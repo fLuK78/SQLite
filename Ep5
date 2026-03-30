@@ -1,0 +1,7 @@
+SELECT 
+    invoices.invoiceId,
+    customers.FirstName,
+    customers.LastName
+FROM invoices
+INNER JOIN customers
+ON invoices.customerId = customers.customerId;
