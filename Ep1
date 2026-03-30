@@ -1,0 +1,2 @@
+SELECT FirstName, LastName
+FROM customers;5
